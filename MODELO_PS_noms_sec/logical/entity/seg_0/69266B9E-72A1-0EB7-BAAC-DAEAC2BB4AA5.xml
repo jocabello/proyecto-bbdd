@@ -32,18 +32,6 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="71418A97-0F00-CDBB-8BFF-41BF5C617525">
-<createdBy>Jirafa</createdBy>
-<createdTime>2019-06-15 21:28:31 UTC</createdTime>
-<generatorID>BBC2A1E6-11DE-207B-21C6-DBAD93A178BD</generatorID>
-<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
-<referedAttribute>B78E42DF-45D3-7CBF-E398-F8F8E34CF2CB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="92E9037B-2307-20B2-89B3-EBE4B4154771" name="COMUNA PK">

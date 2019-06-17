@@ -101,7 +101,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID2" id="BD83DB3B-157C-EF82-720E-BFD90BD59967">
 <createdBy>Jirafa</createdBy>
@@ -114,7 +114,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID3" id="99D16BB6-3F28-7F33-CE98-2409939775E2">
 <createdBy>Jirafa</createdBy>
@@ -126,43 +126,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID4" id="6075AC1A-138C-1478-4CF8-7782AEB2BCE4">
-<createdBy>Jirafa</createdBy>
-<createdTime>2019-06-15 20:40:05 UTC</createdTime>
-<generatorID>47A221FE-87D6-008C-3199-301BEEBD2DB8</generatorID>
-<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
-<referedAttribute>5BA1C6E4-BAF1-7EC3-3A12-8071980DE829</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID5" id="4EF64DD2-BA9B-DA78-1329-687BFD9451CB">
-<createdBy>Jirafa</createdBy>
-<createdTime>2019-06-15 20:40:05 UTC</createdTime>
-<generatorID>47A221FE-87D6-008C-3199-301BEEBD2DB8</generatorID>
-<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
-<referedAttribute>42D6DA4D-623A-72CC-BE43-A27532048B34</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID6" id="4F3E87D0-CCD3-8457-F1AF-935831B30B7B">
-<createdBy>Jirafa</createdBy>
-<createdTime>2019-06-15 20:40:05 UTC</createdTime>
-<generatorID>47A221FE-87D6-008C-3199-301BEEBD2DB8</generatorID>
-<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
-<referedAttribute>6AF3CCB3-67C6-3228-67BE-D137CC245CAF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID7" id="1122D592-A28C-2EC1-D5E6-2E9C8B55F986">
 <createdBy>Jirafa</createdBy>
@@ -174,7 +138,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NUMERO_CUENTA" id="E7134893-68E6-3154-43A8-A713D90678B4">
 <createdBy>Jirafa</createdBy>
@@ -186,7 +150,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

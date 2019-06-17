@@ -95,45 +95,6 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID4" id="798B0A88-DFAF-9143-0E1A-BD8705051FA1">
-<createdBy>Jirafa</createdBy>
-<createdTime>2019-06-15 20:02:27 UTC</createdTime>
-<generatorID>13222C06-51BD-3A5D-810A-3BB6A8768964</generatorID>
-<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>5BA1C6E4-BAF1-7EC3-3A12-8071980DE829</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID5" id="B5DDD41B-B70F-9F94-0A5F-DCF1FA36D255">
-<createdBy>Jirafa</createdBy>
-<createdTime>2019-06-15 20:02:30 UTC</createdTime>
-<generatorID>13222C06-51BD-3A5D-810A-3BB6A8768964</generatorID>
-<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>42D6DA4D-623A-72CC-BE43-A27532048B34</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID6" id="A1F44ADB-3F12-C912-FA5F-36117EB45A4B">
-<createdBy>Jirafa</createdBy>
-<createdTime>2019-06-15 20:02:34 UTC</createdTime>
-<generatorID>13222C06-51BD-3A5D-810A-3BB6A8768964</generatorID>
-<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>6AF3CCB3-67C6-3228-67BE-D137CC245CAF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F564BF03-3075-CF4F-C47B-D453FCAE0C6D" name="CARGA_FAMILIAR PK">

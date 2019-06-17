@@ -62,6 +62,16 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ECIVIL" id="FB7BFEAB-540B-6A00-7893-9D6796AABD93">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-17 15:02:10 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="P_ECIVIL" id="BDF2735D-5073-814C-805A-4B078BBA5623">
 <createdBy>Jirafa</createdBy>
 <createdTime>2019-06-15 23:03:50 UTC</createdTime>
@@ -71,6 +81,16 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PUEBLO" id="C90BD147-7E2F-F427-A779-5672ADA4C318">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-17 15:02:50 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="P_PUEBLO" id="08C2E112-90C9-C796-C4B2-91CED58B0BD1">
 <createdBy>Jirafa</createdBy>

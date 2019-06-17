@@ -119,38 +119,25 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID4" id="13AFFEAC-E7BC-D2A5-7030-A02E2763263D">
+<Attribute name="ID11" id="D1B93CBC-5557-4C02-0DA7-DA1C55C67B66">
 <createdBy>Jirafa</createdBy>
-<createdTime>2019-06-15 21:08:13 UTC</createdTime>
-<generatorID>70D30585-7BDE-D3EF-8CB6-F7A349FB62BC</generatorID>
+<createdTime>2019-06-17 15:13:57 UTC</createdTime>
+<generatorID>AA66DAE2-6599-ED1C-7FC1-34D5FFBE4B3C</generatorID>
 <ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
-<referedAttribute>5BA1C6E4-BAF1-7EC3-3A12-8071980DE829</referedAttribute>
+<referedAttribute>E3E733ED-7237-C864-564F-A08B38BDCFEE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID5" id="3ED431E7-BE1D-0FB9-2B23-55B37117FACB">
+<Attribute name="ID3" id="25D9238F-C939-B8A3-D212-C85A5BF77513">
 <createdBy>Jirafa</createdBy>
-<createdTime>2019-06-15 21:08:13 UTC</createdTime>
-<generatorID>70D30585-7BDE-D3EF-8CB6-F7A349FB62BC</generatorID>
+<createdTime>2019-06-17 15:20:46 UTC</createdTime>
+<generatorID>B4CE4EF1-9835-83B3-E0F2-FFC61B3B1659</generatorID>
 <ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
-<referedAttribute>42D6DA4D-623A-72CC-BE43-A27532048B34</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID6" id="0AD0882C-B898-20DC-6744-0BF1936D55BD">
-<createdBy>Jirafa</createdBy>
-<createdTime>2019-06-15 21:08:13 UTC</createdTime>
-<generatorID>70D30585-7BDE-D3EF-8CB6-F7A349FB62BC</generatorID>
-<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
-<referedAttribute>6AF3CCB3-67C6-3228-67BE-D137CC245CAF</referedAttribute>
+<referedAttribute>FFEAAB80-7A6B-35CE-068B-F241C08E1B54</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

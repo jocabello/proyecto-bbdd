@@ -91,7 +91,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID3" id="4FB256E7-DA0F-BD7F-DD45-47D192E74BD1">
 <createdBy>Jirafa</createdBy>
@@ -103,7 +103,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="CERTIFICADO_PERMANENCIA" id="B6A41674-7D87-0CBF-6CC9-1AB732EB5389">
 <createdBy>Jirafa</createdBy>
@@ -159,7 +159,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID5" id="42D6DA4D-623A-72CC-BE43-A27532048B34">
 <createdBy>Jirafa</createdBy>
@@ -171,7 +171,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID6" id="6AF3CCB3-67C6-3228-67BE-D137CC245CAF">
 <createdBy>Jirafa</createdBy>
@@ -183,7 +183,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="RUN" id="211D4C51-7EEA-9FEF-17DC-71271FD3D3B4">
 <createdBy>Jirafa</createdBy>
@@ -195,7 +195,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID7" id="C0DAC7AE-1188-90EE-1C72-3A1A0560250E">
 <createdBy>Jirafa</createdBy>
@@ -207,7 +207,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FONO_TRABAJO" id="34320752-575D-D7DE-32AF-55D2F548412C">
 <createdBy>Jirafa</createdBy>
@@ -271,7 +271,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -282,9 +282,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>BF16271C-9243-4568-0577-41228B763B4F</attributeRef>
-<attributeRef>5BA1C6E4-BAF1-7EC3-3A12-8071980DE829</attributeRef>
-<attributeRef>42D6DA4D-623A-72CC-BE43-A27532048B34</attributeRef>
-<attributeRef>6AF3CCB3-67C6-3228-67BE-D137CC245CAF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

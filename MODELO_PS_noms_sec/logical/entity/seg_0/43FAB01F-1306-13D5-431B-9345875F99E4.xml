@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43C558DE-0C7A-7368-7FDE-4C8A359291B7" name="LOCALIDAD">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43FAB01F-1306-13D5-431B-9345875F99E4" name="LOCALIDAD">
 <createdBy>Jirafa</createdBy>
-<createdTime>2019-06-13 00:28:49 UTC</createdTime>
+<createdTime>2019-06-17 15:19:33 UTC</createdTime>
 <ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,9 +12,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="B78E42DF-45D3-7CBF-E398-F8F8E34CF2CB">
+<Attribute name="ID" id="FFEAAB80-7A6B-35CE-068B-F241C08E1B54">
 <createdBy>Jirafa</createdBy>
-<createdTime>2019-06-13 00:32:41 UTC</createdTime>
+<createdTime>2019-06-17 15:19:49 UTC</createdTime>
 <ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -22,9 +22,9 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE_LOCALIDAD" id="6362069D-D164-324C-7356-13ED3932BD2E">
+<Attribute name="NOMBRE_LOCALIDAD" id="DA0A8274-7420-1403-99F8-35CA64D52133">
 <createdBy>Jirafa</createdBy>
-<createdTime>2019-06-13 00:33:31 UTC</createdTime>
+<createdTime>2019-06-17 15:20:03 UTC</createdTime>
 <ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,27 +32,15 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="0610A708-651F-9178-2966-2F5E8275725A">
-<createdBy>Jirafa</createdBy>
-<createdTime>2019-06-15 21:28:25 UTC</createdTime>
-<generatorID>96282E58-26C7-8699-810B-BDCFB1F9572E</generatorID>
-<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
-<referedAttribute>54684405-2DC1-7809-5B3A-D46997ED849D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9C069467-763B-0DA3-1AC5-7DA4CF71BF0E" name="LOCALIDAD PK">
+<identifier id="CBF47080-CFCC-7939-1D8F-7463D8A77DB3" name="LOCALIDAD PK">
 <createdBy>Jirafa</createdBy>
-<createdTime>2019-06-13 00:33:27 UTC</createdTime>
+<createdTime>2019-06-17 15:20:01 UTC</createdTime>
 <ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>B78E42DF-45D3-7CBF-E398-F8F8E34CF2CB</attributeRef>
+<attributeRef>FFEAAB80-7A6B-35CE-068B-F241C08E1B54</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

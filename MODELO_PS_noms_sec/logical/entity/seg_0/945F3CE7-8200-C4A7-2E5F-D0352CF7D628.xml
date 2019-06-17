@@ -32,6 +32,30 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID1" id="8D2EA296-CFD8-F863-BFFC-D51D39F0818B">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-17 15:17:04 UTC</createdTime>
+<generatorID>685ED33C-CFEB-7E94-B818-DE0E67FDA66F</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>4048F0F3-FCA4-7E1D-BF30-BEC9FFAE0720</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="A529E5ED-25D4-BB5E-321E-A961BE94B15D">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-17 15:22:29 UTC</createdTime>
+<generatorID>95C60CEA-6695-E31D-FCC4-3A3BFD6C1011</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>FFEAAB80-7A6B-35CE-068B-F241C08E1B54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="06745915-2438-303F-02B9-ECA44B0838C2" name="REGION PK">
@@ -41,6 +65,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>54684405-2DC1-7809-5B3A-D46997ED849D</attributeRef>
+<attributeRef>E3E733ED-7237-C864-564F-A08B38BDCFEE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
