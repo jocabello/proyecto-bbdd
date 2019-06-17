@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56B9E2B5-9A2D-0560-2F3B-DF334C8DE436" name="PUEBLO_ORIGINARIO">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-12 23:19:34 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1D559184-B878-ED7F-D85B-8CBE43DD1742">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 22:11:44 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM_PRUEB_ORIG" id="8CCF9561-0B04-FA7B-A9F4-2200302AC65C">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 22:12:31 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="70E51F37-047B-F9CE-4250-C8945F878733" name="PUEBLO_ORIGINARIO PK">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 22:12:29 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D559184-B878-ED7F-D85B-8CBE43DD1742</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

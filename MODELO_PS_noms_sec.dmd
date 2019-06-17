@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELO_PS_noms_sec" id="C832530D-C9A1-E5A9-7A44-6C4EE0567403" version="3.5">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-10 19:17:12 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C832530D-C9A1-E5A9-7A44-6C4EE0567403</designId>
+</OSDM_Design>

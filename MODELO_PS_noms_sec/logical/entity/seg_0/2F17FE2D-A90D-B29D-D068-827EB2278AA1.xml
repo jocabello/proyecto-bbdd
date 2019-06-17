@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F17FE2D-A90D-B29D-D068-827EB2278AA1" name="CUENTA_AHORRO">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:10:26 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMERO_CUENTA" id="45267D3C-39B3-0515-7622-8FE22A1755FC">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:11:11 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUN_TITULAR" id="5DD8A155-251A-B118-21DA-4CC57587586F">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:12:10 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DV_TITULAR" id="E38F102C-6C44-7C5D-2CA7-15323232DE28">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:12:25 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_CUENTA" id="79F73549-7163-DE77-FFFB-C1F31AB59D61">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:12:43 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TITULAR_CUENTA" id="80AE1D05-DCD5-1C9A-C303-EE18EFEC6CF6">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:13:51 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_APERTURA" id="298EB027-D6F6-6438-6638-84BFE8FC721B">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:16:07 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MONTO_AHORRADO" id="C321D8A2-A1C7-810D-590A-8484520861F7">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:16:27 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="4FAB8841-34CC-4531-3267-4C846A99998C">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 22:03:32 UTC</createdTime>
+<generatorID>1D648AC9-235A-3758-467D-4C6108872013</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>87D79ED1-60D9-0D32-9782-B1395FB25CAB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="15F7A534-7112-5998-FFF0-7802D4D43AFE">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 22:06:52 UTC</createdTime>
+<generatorID>7761D985-A8F7-81D0-78EE-11AFD7C3A980</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>319F50E6-9AB8-C6B2-A4DB-EA55AA76BA40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5FCAB69-178A-E134-3FFC-62E7A2B2BF60" name="AHORRO PK">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:11:34 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45267D3C-39B3-0515-7622-8FE22A1755FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C05C524-9349-7DCC-3588-F2BC55E942A7" name="DIRECCION">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:34:37 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="F288FA78-8776-F429-DDA6-E3D376F1D8DC">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:34:45 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CALLE" id="F0D12A05-A1C2-B2D1-77B1-2594BBA5F417">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:35:11 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO" id="53CD4B3B-8BE9-A2FC-9F37-74A4C7F9C2F5">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:35:52 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BLOCK" id="3F7BE3CF-20D3-4674-A5F7-91336950ECD3">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:36:10 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPARAMENTO" id="B6A1D5A0-5E0D-405E-9410-4BEC0720E989">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:36:33 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MANZANA" id="8B5ABA50-66FD-6B75-4B4A-DF3740456B27">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:36:58 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SITIO" id="7187148B-419B-CF7B-88A6-FEAFAB25C46B">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:37:09 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VILLA_POBLACION" id="EAF7C2A2-08E3-E116-A0EA-1F9EA586D2E0">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:38:55 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="D96F4097-008B-12B7-CAF5-E66361C31267">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:39:52 UTC</createdTime>
+<generatorID>AA66DAE2-6599-ED1C-7FC1-34D5FFBE4B3C</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>54684405-2DC1-7809-5B3A-D46997ED849D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="C51F5D3D-6BB3-8D87-B80B-8C00CDB0A797">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:08:13 UTC</createdTime>
+<generatorID>70D30585-7BDE-D3EF-8CB6-F7A349FB62BC</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>BF16271C-9243-4568-0577-41228B763B4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID4" id="13AFFEAC-E7BC-D2A5-7030-A02E2763263D">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:08:13 UTC</createdTime>
+<generatorID>70D30585-7BDE-D3EF-8CB6-F7A349FB62BC</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>5BA1C6E4-BAF1-7EC3-3A12-8071980DE829</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID5" id="3ED431E7-BE1D-0FB9-2B23-55B37117FACB">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:08:13 UTC</createdTime>
+<generatorID>70D30585-7BDE-D3EF-8CB6-F7A349FB62BC</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>42D6DA4D-623A-72CC-BE43-A27532048B34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID6" id="0AD0882C-B898-20DC-6744-0BF1936D55BD">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:08:13 UTC</createdTime>
+<generatorID>70D30585-7BDE-D3EF-8CB6-F7A349FB62BC</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>6AF3CCB3-67C6-3228-67BE-D137CC245CAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="197BD0BE-CDA7-FB5E-8EBE-F160DD6CEF4E" name="DIRECCION PK">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:35:09 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F288FA78-8776-F429-DDA6-E3D376F1D8DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

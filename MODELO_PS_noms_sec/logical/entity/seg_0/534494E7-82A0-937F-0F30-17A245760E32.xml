@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="534494E7-82A0-937F-0F30-17A245760E32" name="DETALLE_DEPOSITO">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:54:48 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="7C33CEC5-DE41-98A5-5EAB-440BA88DC3F3">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:55:47 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_DEPOSITO" id="D02F7B0E-0F48-5FAC-F1FE-078C0D693398">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:56:19 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MONTO_DEPOSITO" id="300FB631-319B-53E3-9BBE-7815EEEA76E6">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:56:41 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_CUENTA" id="0EA70880-0BC3-2CB9-E881-4942676A7F00">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 22:05:13 UTC</createdTime>
+<generatorID>2FFBC856-3FCD-FF2B-7158-26248BE9AA72</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>45267D3C-39B3-0515-7622-8FE22A1755FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="9A93768C-6D10-B3C2-ED5E-4BBB3AFA0A39">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 22:07:06 UTC</createdTime>
+<generatorID>6D3F6EB5-EC5C-F894-C8A2-C543A986BC50</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>87D79ED1-60D9-0D32-9782-B1395FB25CAB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDE7C698-D653-500B-EF02-0248CB8C57C7" name="DETALLE_DEPOSITO PK">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:56:17 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C33CEC5-DE41-98A5-5EAB-440BA88DC3F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

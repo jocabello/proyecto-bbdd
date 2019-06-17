@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D290BF91-B8A6-5A41-25F4-9EF1E0F7930A" name="INSTITUCION_SUPERIOR">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 19:54:31 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D08CEB8E-85A1-C5C6-1513-4FB952EC5527">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 19:55:12 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_INSTITUCION" id="9EA948E1-DED8-55B9-4294-EFF6A4F22216">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 19:55:26 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_INSTITUCION" id="28E4B948-88AE-5A4D-509F-70B9AF901F3B">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 19:56:23 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C33D05D-A0DF-D0E8-D1FC-6A62FB0A6B18" name="INSTITUCION_SUPERIOR PK">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 19:55:24 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D08CEB8E-85A1-C5C6-1513-4FB952EC5527</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

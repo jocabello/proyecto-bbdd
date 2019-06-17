@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_25" directorySegmentName="seg_0" id="2990481B-A499-0643-116B-9C4E9F6B713E">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 20:49:11 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<sourcePk>604B3C57-972B-EA1D-6E63-EDBC3359FF14</sourcePk>
+<targetPk>F262A86E-CB6F-0D15-3273-84ABC721C40D</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9038E8B4-543B-B928-2770-4ECC7011F8E4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>213F0B05-13B5-D288-F26F-CACD3AAD8260</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

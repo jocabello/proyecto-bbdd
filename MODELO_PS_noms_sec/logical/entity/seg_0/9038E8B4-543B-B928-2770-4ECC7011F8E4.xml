@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9038E8B4-543B-B928-2770-4ECC7011F8E4" name="CONY">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 20:41:46 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RUN" id="4B2FABE7-D3CD-E063-8412-BB4F1B08D5E3">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 20:42:16 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DV" id="AD312FBC-B120-F100-8450-7C6468C7892D">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 20:42:51 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_NAC_CONY" id="E30C923B-8AFC-0E9F-37D9-A7D5B6A25DBA">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 20:43:16 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRES_CONY" id="7A68A5BF-AA3E-6766-D40C-A4DFFADFC344">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 20:44:25 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_PAT_CONY" id="6AE0BE27-5F0D-346F-381B-5AA2A041AC88">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 20:44:43 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO_MAT_CONY" id="AC2A84BF-4C94-F129-A742-10E24F2E7D1B">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 20:45:00 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="3DAF122E-754F-864A-7E89-6402ABCFBC0C">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 20:48:47 UTC</createdTime>
+<generatorID>2B43290D-275D-1502-74C0-7038F3291EF4</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>FDBB38B0-132D-D527-5EFC-709421C4153F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="604B3C57-972B-EA1D-6E63-EDBC3359FF14" name="CONVIVIENTE PK">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 20:42:22 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B2FABE7-D3CD-E063-8412-BB4F1B08D5E3</attributeRef>
+<attributeRef>3DAF122E-754F-864A-7E89-6402ABCFBC0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

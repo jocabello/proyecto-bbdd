@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="945F3CE7-8200-C4A7-2E5F-D0352CF7D628" name="REGION">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:28:45 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="54684405-2DC1-7809-5B3A-D46997ED849D">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:32:07 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_REGION" id="02AC3184-92E0-D40D-8493-E41A3E9BEA48">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:32:22 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06745915-2438-303F-02B9-ECA44B0838C2" name="REGION PK">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:32:21 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54684405-2DC1-7809-5B3A-D46997ED849D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

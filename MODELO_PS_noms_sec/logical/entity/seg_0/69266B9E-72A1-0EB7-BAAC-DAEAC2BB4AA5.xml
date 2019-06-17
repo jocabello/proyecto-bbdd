@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69266B9E-72A1-0EB7-BAAC-DAEAC2BB4AA5" name="COMUNA">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:28:41 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="4048F0F3-FCA4-7E1D-BF30-BEC9FFAE0720">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:29:11 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_COMUNA" id="9049ABC0-492D-AE46-A2DF-D65C13481A69">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:29:25 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="71418A97-0F00-CDBB-8BFF-41BF5C617525">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-15 21:28:31 UTC</createdTime>
+<generatorID>BBC2A1E6-11DE-207B-21C6-DBAD93A178BD</generatorID>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<referedAttribute>B78E42DF-45D3-7CBF-E398-F8F8E34CF2CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92E9037B-2307-20B2-89B3-EBE4B4154771" name="COMUNA PK">
+<createdBy>Jirafa</createdBy>
+<createdTime>2019-06-13 00:29:24 UTC</createdTime>
+<ownerDesignName>MODELO_PS_noms_sec</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4048F0F3-FCA4-7E1D-BF30-BEC9FFAE0720</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
